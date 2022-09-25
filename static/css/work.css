@@ -1,0 +1,106 @@
+.template-desc {
+    font-weight: 400;
+    text-align: justify;
+}
+
+.contact-us {
+    background: #FCD980;
+    border-radius: 41px;
+    width: 230px;
+    height: 64px;
+    border-width: 0;
+}
+
+.heading {
+    background: #F4F6FC;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.navigation {
+    display: flex;
+    gap: 32px;
+    position: relative;
+    left: 20%;
+    right: 20%;
+    width: 60%;
+    text-align: center;
+    margin-top: 96px;
+}
+
+.content {
+    display: flex;
+    gap: 34px;
+    flex-wrap: wrap;
+    position: relative;
+    left: 7.5%;
+    right: 7.5%;
+    width: 85%;
+    margin-top: 48px;
+}
+
+p {
+    text-align: center;
+    opacity: 0.7;
+    width: 100%;
+    margin-top: -25px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    margin-top: 10px;
+}
+
+span, button {
+    line-height: 150%;
+    color: #282938;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button:hover {
+    border-width: 5px;
+}
+
+nav > a {
+    flex: 1;
+    line-height: 32px;
+    color: #282938;
+}
+
+nav > a:first-child, nav > a:hover {
+    color: #2405F2;
+}
+
+img[alt='Template'] {
+    width: 450px;
+    height: 262px;
+}
+
+img[alt='Arrow'] {
+    margin-left: 16px;
+}
+
+section > article {
+    flex: 1;
+    width: 42.5%;
+}
+
+body {
+    padding-bottom: 50px;
+}
