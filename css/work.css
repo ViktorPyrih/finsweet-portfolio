@@ -1,18 +1,17 @@
 /* Work style start */
 
-body {
-    color: #282938;
-}
 .contact-us-btn {
     width: 230px;
     height: 64px;
     background: #FCD980;
-    border-radius: 41px;
     border-width: 0;
     font-weight: 600;
     font-size: 18px;
     line-height: 32px;
     color: #1B1C2B;
+}
+.portfolio-container {
+    color: #282938;
 }
 .portfolio-heading-container {
     background: #F4F6FC;

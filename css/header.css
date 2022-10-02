@@ -17,6 +17,7 @@
     flex-direction: row;
     align-items: center;
     gap: 32px;
+    font-weight: 500;
 }
 .header-nav__list {
     display: flex;
@@ -30,17 +31,13 @@
 .header-nav__item:first-child > a {
     color: #FFFFFF;
 }
-.header-nav__btn {
+.header-nav__contact-us-btn {
     box-sizing: border-box;
-    line-height: 28px;
-    font-size: 16px;
-    color: #FFFFFF;
-}
-.contact-us-btn {
     width: 185px;
     height: 60px;
     border: 2px solid rgba(244, 246, 252, 0.2);
-    border-radius: 41px;
+    line-height: 28px;
+    color: #FFFFFF;
     background: #1C1E53;
 }
 

@@ -16,8 +16,6 @@
     margin-bottom: 23px;
 }
 .logo-container__subtitle {
-    font-weight: 500;
-    line-height: 28px;
     opacity: 0.8;
 }
 .lets-talk {
@@ -29,7 +27,6 @@
     margin-bottom: 14px;
 }
 .lets-talk__desc {
-    line-height: 28px;
     opacity: 0.8;
     margin-bottom: 28px;
 }

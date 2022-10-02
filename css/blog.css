@@ -1,9 +1,7 @@
 /* Blog style start */
 
-body {
-    color: #282938;
-}
 .blog-container {
+    color: #282938;
     padding-top: 128px;
 }
 .blog-heading {

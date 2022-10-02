@@ -97,5 +97,10 @@ button:hover {
     line-height: 36px;
     color: #282938;
 }
+.btn {
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 41px;
+}
 
 /* Main style end */
