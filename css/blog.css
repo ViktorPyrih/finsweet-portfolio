@@ -19,7 +19,8 @@
     margin-bottom: 48px;
 }
 .blog-heading__desc {
-    margin-bottom: 16px;
+    width: 831px;
+    margin: 0 auto 16px;
 }
 .blog-heading__link {
     color: #2405F2;
