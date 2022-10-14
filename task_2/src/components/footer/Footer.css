@@ -1,0 +1,80 @@
+/* Footer style start */
+
+.footer-content {
+    padding-top: 96px;
+    background: #1C1E53;
+}
+.footer-heading {
+    display: flex;
+    flex-direction: row;
+}
+.logo-container {
+    width: 399px;
+    margin-right: 260px;
+}
+.logo-container__img {
+    margin-bottom: 23px;
+}
+.logo-container__subtitle {
+    opacity: 0.8;
+}
+.lets-talk {
+    width: 399px;
+}
+.lets-talk__title {
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+.lets-talk__desc {
+    opacity: 0.8;
+    margin-bottom: 28px;
+}
+.footer-contact-info {
+    display: flex;
+    flex-direction: row;
+    gap: 29px;
+    width: 517px;
+    height: 95px;
+    background: #FCD980;
+}
+.contact-info-block {
+    padding-left: 37px;
+    padding-top: 18px;
+}
+.contact-info-block__title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #282938;
+}
+.contact-info-block__link {
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.8;
+}
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #FFFFFF;
+    color: #282938;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.footer-copyright-info {
+    font-weight: 500;
+    line-height: 28px;
+}
+.footer-nav__list {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+.footer-nav__link {
+    font-weight: 500;
+    line-height: 28px;
+    color: #282938;
+}
+
+/* Footer style end */

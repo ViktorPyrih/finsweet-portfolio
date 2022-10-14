@@ -1,0 +1,24 @@
+/* Article style start */
+
+.blog-content__item {
+    width: 405px;
+    margin-bottom: 64px;
+}
+.blog-content__img {
+    width: 405px;
+    margin-bottom: 32px;
+}
+.blog-content__date {
+    margin-bottom: 16px;
+}
+.blog-content__subtitle {
+    margin-bottom: 16px;
+}
+.blog-content__desc {
+    margin-bottom: 24px;
+}
+.blog-content-link__text {
+    color: #1C1E53;
+}
+
+/* Article style end */

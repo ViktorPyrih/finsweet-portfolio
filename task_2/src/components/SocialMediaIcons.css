@@ -1,0 +1,6 @@
+.social-media-icons {
+    display: flex;
+    flex-direction: row;
+    width: 144px;
+    justify-content: space-between;
+}

@@ -1,0 +1,92 @@
+/* Work style start */
+
+.contact-us-btn {
+    width: 230px;
+    height: 64px;
+    background: #FCD980;
+    border-width: 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: #1B1C2B;
+}
+.portfolio-container {
+    color: #282938;
+}
+.portfolio-heading-container {
+    background: #F4F6FC;
+    padding-bottom: 96px;
+    padding-top: 96px;
+}
+.portfolio-heading {
+    width: 733px;
+    margin: 0 auto;
+    text-align: center;
+}
+.portfolio-heading__subtitle {
+    margin-bottom: 4px;
+}
+.portfolio-heading__title {
+    margin-bottom: 24px;
+}
+.portfolio-heading__desc {
+    margin-bottom: 32px;
+}
+.social-media-icons__list {
+    margin: 0 auto;
+}
+.portfolio-categories {
+    margin-bottom: 48px;
+}
+.portfolio-categories__list {
+    width: 473px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.portfolio-content {
+    padding-top: 96px;
+    padding-bottom: 128px;
+}
+.portfolio-categories__item:first-child > a {
+    color: #2405F2;
+}
+.portfolio-templates__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 34px;
+}
+.portfolio-contact-us {
+    text-align: center;
+    padding-top: 64px;
+}
+.portfolio-contact-us__title {
+    width: 730px;
+    margin: 0 auto 20px;
+}
+.portfolio-contact-us__desc {
+    width: 562px;
+    margin: 0 auto 40px;
+}
+.img-container_gradient_1 {
+    background: linear-gradient(131.34deg, #F4EDE1 16.74%, #98B1C6 103.17%)
+}
+.img-container_gradient_2 {
+    background: linear-gradient(131.34deg, #FFD3AF 16.74%, #4F56FF 103.17%);
+}
+.img-container_gradient_3 {
+    background: linear-gradient(131.34deg, #EEBCA7 16.74%, #C8C8C8 103.17%);
+}
+.img-container_gradient_4 {
+    background: linear-gradient(131.34deg, #C2E7F2 16.74%, #98A4FF 103.17%);
+}
+.img-container_gradient_5 {
+    background: linear-gradient(131.34deg, #C5BCFF 16.74%, #9BF7D5 103.17%);
+}
+.img-container_gradient_6 {
+    background: linear-gradient(131.34deg, #D2D6FD 16.74%, #D6ACEA 103.17%);
+}
+
+/* Work style end */

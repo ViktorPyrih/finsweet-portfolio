@@ -1,0 +1,28 @@
+/* Template style start */
+
+.portfolio-templates__item {
+    width: 623px;
+    margin-bottom: 64px;
+}
+.portfolio-templates-img-container {
+    padding: 30px 39px 33px 39px;
+    margin-bottom: 24px;
+}
+.portfolio-templates__img {
+    width: 545px;
+}
+.portfolio-templates__title {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    margin-bottom: 12px;
+}
+.portfolio-templates__desc {
+    margin-bottom: 24px;
+}
+.portfolio-templates-link__text {
+    font-weight: 500;
+    line-height: 150%;
+}
+
+/* Template style end */
