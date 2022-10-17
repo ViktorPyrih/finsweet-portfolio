@@ -1,5 +1,5 @@
 import './App.css';
-import {createBrowserRouter} from 'react-router-dom'
+import {createBrowserRouter, redirect} from 'react-router-dom'
 import {RouterProvider} from "react-router";
 import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
@@ -23,7 +23,9 @@ function App() {
       },
       {
           path: "/*",
-          element: <Home/>
+          loader: () => {
+              throw redirect("/");
+          }
       }
   ]);
   return (
