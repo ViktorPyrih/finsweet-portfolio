@@ -1,11 +1,11 @@
 import './Portfolio.css';
 import templates from '../data/templates.json';
 import SocialMediaIcons from "../components/SocialMediaIcons";
-import PortfolioNavLink from "../components/portfolio/PortfolioNavLink";
 import Template from "../components/portfolio/Template";
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
 import {ScrollRestoration} from "react-router-dom";
+import NavLink from "../components/NavLink";
 
 function Portfolio() {
     return (
@@ -31,10 +31,10 @@ function Portfolio() {
                 <div className="portfolio-content wrapper">
                     <nav className="portfolio-categories">
                         <ul className="portfolio-categories__list">
-                            <PortfolioNavLink>All</PortfolioNavLink>
-                            <PortfolioNavLink>UI Design</PortfolioNavLink>
-                            <PortfolioNavLink>Webflow Design</PortfolioNavLink>
-                            <PortfolioNavLink>Figma Design</PortfolioNavLink>
+                            <NavLink className="portfolio-categories__link color_blue">All</NavLink>
+                            <NavLink className="portfolio-categories__link">UI Design</NavLink>
+                            <NavLink className="portfolio-categories__link">Webflow Design</NavLink>
+                            <NavLink className="portfolio-categories__link">Figma Design</NavLink>
                         </ul>
                     </nav>
                     <section className="portfolio-templates-container">

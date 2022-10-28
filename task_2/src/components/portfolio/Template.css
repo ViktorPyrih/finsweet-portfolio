@@ -24,5 +24,8 @@
     font-weight: 500;
     line-height: 150%;
 }
+.portfolio-templates-link__img {
+    margin-left: 5px;
+}
 
 /* Template style end */

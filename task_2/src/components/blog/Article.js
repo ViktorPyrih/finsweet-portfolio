@@ -16,7 +16,7 @@ function Article(props) {
             </p>
             <Link to="#" className="blog-content-link">
                 <span className="paragraph paragraph_font-weight_500 blog-content-link__text">Read more</span>
-                <img src={arrow} alt="Arrow"/>
+                <img src={arrow} alt="Arrow" className="blog-content-link__img"/>
             </Link>
         </li>
     );

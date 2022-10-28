@@ -20,5 +20,8 @@
 .blog-content-link__text {
     color: #1C1E53;
 }
+.blog-content-link__img {
+    margin-left: 5px;
+}
 
 /* Article style end */

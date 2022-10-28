@@ -15,7 +15,7 @@ function Template(props) {
             </p>
             <Link to="#" className="portfolio-templates-link">
                 <span className="paragraph portfolio-templates-link__text">View portfolio</span>
-                <img src={arrow} alt="Arrow"/>
+                <img src={arrow} alt="Arrow" className="portfolio-templates-link__img"/>
             </Link>
         </li>
     );

@@ -1,8 +1,8 @@
 import './Footer.css';
 import logo from '../../assets/img/png/Logo.png';
 import SocialMediaIcons from "../SocialMediaIcons";
-import FooterNavLink from "./FooterNavLink";
 import Copyright from "../Copyright";
+import NavLink from "../NavLink";
 
 function Footer() {
     return (
@@ -49,12 +49,12 @@ function Footer() {
                 <Copyright className="footer-copyright-info"></Copyright>
                 <nav className="footer-nav">
                     <ul className="footer-nav__list">
-                        <FooterNavLink to="/">Home</FooterNavLink>
-                        <FooterNavLink to="/portfolio">About us</FooterNavLink>
-                        <FooterNavLink to="#">Features</FooterNavLink>
-                        <FooterNavLink to="#">Pricing</FooterNavLink>
-                        <FooterNavLink to="#">FAQ</FooterNavLink>
-                        <FooterNavLink to="/blog">Blog</FooterNavLink>
+                        <NavLink to="/" className="footer-nav__link">Home</NavLink>
+                        <NavLink to="/portfolio" className="footer-nav__link">About us</NavLink>
+                        <NavLink className="footer-nav__link">Features</NavLink>
+                        <NavLink className="footer-nav__link">Pricing</NavLink>
+                        <NavLink className="footer-nav__link">FAQ</NavLink>
+                        <NavLink to="/blog" className="footer-nav__link">Blog</NavLink>
                     </ul>
                 </nav>
             </div>

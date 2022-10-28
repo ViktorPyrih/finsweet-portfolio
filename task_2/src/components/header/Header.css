@@ -27,6 +27,10 @@
 .header-nav__item:first-child > a {
     color: #FFFFFF;
 }
+.header-nav__link {
+    line-height: 28px;
+    color: #BBBBCB;
+}
 .header-nav__contact-us-btn {
     box-sizing: border-box;
     width: 185px;

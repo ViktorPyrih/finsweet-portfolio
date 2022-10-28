@@ -105,5 +105,8 @@ a:hover, button:hover {
     font-weight: 500;
     border-radius: 41px;
 }
+.color_blue {
+    color: #2405F2;
+}
 
 /* Main style end */
