@@ -2,7 +2,7 @@ import './Footer.css';
 import logo from '../../assets/img/png/Logo.png';
 import SocialMediaIcons from "../SocialMediaIcons";
 import Copyright from "../Copyright";
-import NavLink from "../NavLink";
+import NavBar from "../NavBar";
 
 function Footer() {
     return (
@@ -48,14 +48,7 @@ function Footer() {
             <div className="footer-links wrapper">
                 <Copyright className="footer-copyright-info"></Copyright>
                 <nav className="footer-nav">
-                    <ul className="footer-nav__list">
-                        <NavLink to="/" className="footer-nav__link">Home</NavLink>
-                        <NavLink to="/portfolio" className="footer-nav__link">About us</NavLink>
-                        <NavLink className="footer-nav__link">Features</NavLink>
-                        <NavLink className="footer-nav__link">Pricing</NavLink>
-                        <NavLink className="footer-nav__link">FAQ</NavLink>
-                        <NavLink to="/blog" className="footer-nav__link">Blog</NavLink>
-                    </ul>
+                    <NavBar className="footer-nav__link"/>
                 </nav>
             </div>
         </footer>

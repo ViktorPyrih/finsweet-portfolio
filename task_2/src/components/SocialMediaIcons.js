@@ -9,30 +9,37 @@ import instagramLogoDark from '../assets/img/svg/social-media/instagram-black.sv
 import linkedInLogoDark from '../assets/img/svg/social-media/linked_in-black.svg';
 import SocialMediaIcon from "./SocialMediaIcon";
 
-function SocialMediaIcons(props) {
-    const isDark = props.isDark;
+const SOCIAL_NETWORK = {
+    inst: ['instagram', 'Instagram'],
+    fb: ['facebook', 'Facebook'],
+    tw: ['twitter', 'Twitter'],
+    lnk: ['linked_in', 'Linked In']
+};
+
+function SocialMediaIcons({isDark, className = ""}) {
     return (
-        <ul className="social-media-icons social-media-icons__list">
-            <SocialMediaIcon src={resolveLogo('facebook', isDark)} alt="Facebook"/>
-            <SocialMediaIcon src={resolveLogo('twitter', isDark)} alt="Twitter"/>
-            <SocialMediaIcon src={resolveLogo('instagram', isDark)} alt="Instagram"/>
-            <SocialMediaIcon src={resolveLogo('linked_in', isDark)} alt="Linked In"/>
+        <ul className={`social-media-icons ${className}`}>
+            {
+                Object.keys(SOCIAL_NETWORK).map(key => (
+                    <SocialMediaIcon src={resolveLogo(SOCIAL_NETWORK[key][0], isDark)} alt={SOCIAL_NETWORK[key][1]}/>)
+                )
+            }
         </ul>
     )
 }
 
 function resolveLogo(logo, isDark) {
     switch (logo) {
-        case 'facebook':
+        case SOCIAL_NETWORK.fb[0]:
             logo = isDark ? facebookLogoDark : facebookLogo;
             break;
-        case 'twitter':
+        case SOCIAL_NETWORK.tw[0]:
             logo = isDark ? twitterLogoDark : twitterLogo;
             break;
-        case 'instagram':
+        case SOCIAL_NETWORK.inst[0]:
             logo = isDark ? instagramLogoDark : instagramLogo;
             break;
-        case 'linked_in':
+        case SOCIAL_NETWORK.lnk[0]:
             logo = isDark ? linkedInLogoDark : linkedInLogo;
             break;
         default:

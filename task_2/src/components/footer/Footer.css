@@ -1,5 +1,3 @@
-/* Footer style start */
-
 .footer-content {
     padding-top: 96px;
     background: #1C1E53;
@@ -66,15 +64,8 @@
     font-weight: 500;
     line-height: 28px;
 }
-.footer-nav__list {
-    display: flex;
-    flex-direction: row;
-    gap: 32px;
-}
 .footer-nav__link {
     font-weight: 500;
     line-height: 28px;
     color: #282938;
 }
-
-/* Footer style end */

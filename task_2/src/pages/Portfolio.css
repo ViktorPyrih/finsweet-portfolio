@@ -1,5 +1,3 @@
-/* Work style start */
-
 .contact-us-btn {
     width: 230px;
     height: 64px;
@@ -20,7 +18,6 @@
 }
 .portfolio-heading {
     width: 733px;
-    margin: 0 auto;
     text-align: center;
 }
 .portfolio-heading__subtitle {
@@ -40,7 +37,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0 auto;
 }
 .portfolio-content {
     padding-top: 96px;
@@ -88,5 +84,3 @@
 .img-container_gradient_6 {
     background: linear-gradient(131.34deg, #D2D6FD 16.74%, #D6ACEA 103.17%);
 }
-
-/* Work style end */

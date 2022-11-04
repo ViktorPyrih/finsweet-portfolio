@@ -7,6 +7,22 @@ import Footer from "../components/footer/Footer";
 import {ScrollRestoration} from "react-router-dom";
 import NavLink from "../components/NavLink";
 
+const PORTFOLIO_CATEGORIES = [
+    {
+        isActive: true,
+        label: "All"
+    },
+    {
+        label: "UI Design"
+    },
+    {
+        label: "Webflow Design"
+    },
+    {
+        label: "Figma Design"
+    }
+]
+
 function Portfolio() {
     return (
         <>
@@ -14,7 +30,7 @@ function Portfolio() {
             <Header/>
             <div className="portfolio-container">
                 <div className="portfolio-heading-container wrapper">
-                    <div className="portfolio-heading">
+                    <div className="portfolio-heading align_center">
                         <h4 className="paragraph paragraph_font-weight_500 portfolio-heading__subtitle">
                             What we created
                         </h4>
@@ -25,16 +41,19 @@ function Portfolio() {
                             We help teams create great digital products by providing them with tools and technology
                             to make the design-to-code process universally accessible.
                         </p>
-                        <SocialMediaIcons isDark={true}/>
+                        <SocialMediaIcons className="align_center" isDark={true}/>
                     </div>
                 </div>
                 <div className="portfolio-content wrapper">
                     <nav className="portfolio-categories">
-                        <ul className="portfolio-categories__list">
-                            <NavLink className="portfolio-categories__link color_blue">All</NavLink>
-                            <NavLink className="portfolio-categories__link">UI Design</NavLink>
-                            <NavLink className="portfolio-categories__link">Webflow Design</NavLink>
-                            <NavLink className="portfolio-categories__link">Figma Design</NavLink>
+                        <ul className="portfolio-categories__list align_center">
+                            {
+                                PORTFOLIO_CATEGORIES.map(category => (
+                                    <NavLink className={`portfolio-categories__link ${category.isActive ? 'color_blue' : ''}`}>
+                                        {category.label}
+                                    </NavLink>
+                                ))
+                            }
                         </ul>
                     </nav>
                     <section className="portfolio-templates-container">
