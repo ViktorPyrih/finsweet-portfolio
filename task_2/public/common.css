@@ -108,5 +108,8 @@ a:hover, button:hover {
 .color_blue {
     color: #2405F2;
 }
+.align_center {
+    margin: 0 auto;
+}
 
 /* Main style end */
